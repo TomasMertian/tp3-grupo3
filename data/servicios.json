@@ -1,0 +1,4 @@
+[
+  { "id": 1, "precio": 25, "desc": "Arreglar pc" },
+  { "id": 2, "precio": 15, "desc": "Instalar componentes" }
+]

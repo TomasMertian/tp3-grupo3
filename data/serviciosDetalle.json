@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Arreglar pc",
+    "detalle_largo": "Arreglo y diagnostico de computadores de escritorio o notebooks",
+    "tiempo_entrega": "48 horas",
+    "disponible": true,
+    "categoria": "Reparacion"
+  },
+  {
+    "id": 2,
+    "nombre": "Instalar componentes",
+    "detalle_largo": "Instalamos componentes por vos",
+    "tiempo_entrega": "24 horas",
+    "disponible": true,
+    "categoria": "Instalacion"
+  }
+]
