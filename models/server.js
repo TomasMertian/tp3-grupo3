@@ -17,7 +17,8 @@ class Server {
 
   rutas () {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
-
+    this.app.use('/equipo', require('../routes/equipoRoutes'))
+    
     this.app.use((err, req, res, next) => {
       console.error(err.stack)
       return res.status(500).json({ msg: 'Internal Server Error' })
