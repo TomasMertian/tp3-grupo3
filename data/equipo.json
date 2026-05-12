@@ -1,0 +1,38 @@
+[
+    {
+    "id": 1,
+    "nombre": "Alan",
+    "puesto": "Encargado de mostrador",
+    "leyenda": "Responsable de brindar una atención personalizada, gestionando pedidos con eficiencia y asegurando que cada cliente se lleve la mejor experiencia desde el primer contacto.",
+    "telefono": "+54 291 543 3456",
+    "email": "alanmartinez@gmail.com",
+    "imagen": "../assets/img/personal4.jpg"
+    },
+    {
+    "id": 2,
+    "nombre": "Nahuel",
+    "puesto": "Tecnico reparador",
+    "leyenda": "Experto en soporte técnico y mantenimiento preventivo. Si tiene un chip, nosotros lo hacemos funcionar mejor.",
+    "telefono": "+54 291 945 9123",
+    "email": "nahuelperez7@yahoo.com",
+    "imagen": "../assets/img/personal.png"
+    },
+    {
+    "id": 3,
+    "nombre": "Lucia",
+    "puesto": "Encargada de recursos humanos",
+    "leyenda": "Responsable de la comunicación interna y el bienestar del equipo. Garantizando que cada pieza del proyecto funcione en armonía y con el mejor clima laboral.",
+    "telefono": "+54 291 756 8234",
+    "email": "luchigonzales@hotmail.com",
+    "imagen": "../assets/img/personal2.png"
+    },
+    {
+    "id": 4,
+    "nombre": "Marcelo",
+    "puesto": "Dueño del local",
+    "leyenda": "Liderando con visión para construir el futuro de nuestro servicio hoy.",
+    "telefono": "+54 291 576 6096",
+    "email": "marcelopaez@gmail.com",
+    "imagen": "../assets/img/personal3.png"
+    }
+]
