@@ -4,5 +4,7 @@
   { "id": 2, "precio": 15, "desc": "Aplicar pasta termina" },
   { "id": 2, "precio": 15, "desc": "Reparacion de componentes" },
   { "id": 2, "precio": 15, "desc": "Instalacion de software" },
-  { "id": 2, "precio": 15, "desc": "Instalar componentes" }
+  { "id": 2, "precio": 15, "desc": "Instalar componentes" },
+  { "id": 3, "precio": 15, "desc": "Instalar componentes" },
+  { "id": 4, "precio": 15, "desc": "Instalar componentes" }
 ]
