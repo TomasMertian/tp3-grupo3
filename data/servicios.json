@@ -1,10 +1,15 @@
 [
-  { "id": 1, "precio": 25, "desc": "Arreglar computadora" },
-  { "id": 2, "precio": 15, "desc": "Limpiar computadora" },
-  { "id": 2, "precio": 15, "desc": "Aplicar pasta termina" },
-  { "id": 2, "precio": 15, "desc": "Reparacion de componentes" },
-  { "id": 2, "precio": 15, "desc": "Instalacion de software" },
-  { "id": 2, "precio": 15, "desc": "Instalar componentes" },
-  { "id": 3, "precio": 15, "desc": "Instalar componentes" },
-  { "id": 4, "precio": 15, "desc": "Instalar componentes" }
+  { "id": 1, "precio": 20000, "desc": "Limpieza Integral" },
+  { "id": 2, "precio": 12000, "desc": "Cambio de Pasta Térmica" },
+  { "id": 3, "precio": 15000, "desc": "Optimización de Sistema Operativo" },
+  { "id": 4, "precio": 10000, "desc": "Instalación de Suite Office" },
+  { "id": 5, "precio": 6000, "desc": "Ampliación de Memoria RAM" },
+  { "id": 6, "precio": 18000, "desc": "Migración de Disco SSD" },
+  { "id": 7, "precio": 35000, "desc": "Armado de PC" },
+  { "id": 8, "precio": 40000, "desc": "Recuperación de Datos" },
+  { "id": 9, "precio": 28000, "desc": "Reparación de Bisgras (Notebook)" },
+  { "id": 10, "precio": 12000, "desc": "Eliminación de Malware y Adware" },
+  { "id": 11, "precio": 8000, "desc": "Actualización de BIOS/Drivers" },
+  { "id": 12, "precio": 15000, "desc": "Reemplazo de Teclado o Pantalla" },
+  { "id": 13, "precio": 22000, "desc": "Instalación de Redes Mesh" }
 ]
