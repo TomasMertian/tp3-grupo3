@@ -1,4 +1,8 @@
 [
-  { "id": 1, "precio": 25, "desc": "Arreglar pc" },
+  { "id": 1, "precio": 25, "desc": "Arreglar computadora" },
+  { "id": 2, "precio": 15, "desc": "Limpiar computadora" },
+  { "id": 2, "precio": 15, "desc": "Aplicar pasta termina" },
+  { "id": 2, "precio": 15, "desc": "Reparacion de componentes" },
+  { "id": 2, "precio": 15, "desc": "Instalacion de software" },
   { "id": 2, "precio": 15, "desc": "Instalar componentes" }
 ]
