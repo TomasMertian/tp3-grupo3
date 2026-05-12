@@ -19,23 +19,4 @@ const postLogin = async (req, res) => {
     }
 }
 
-const getLogin = (req, res) => {
-    try{
-        data = fs.readFile('.data/usuarios.json', 'utf-8')
-        data = json.parse(data)
-
-        const {id} = req.params
-
-        const user = data.find(user => user.id === id)
-        if (user) {
-            res.status(200).json(user)
-        } else {
-            res.status(400).json({ message : 'Usuario no encontrado'})
-        }
-        
-    }catch (error){
-        res.status(500).json({ message : 'Error al procesar la solicitud'})
-    }
-}
-
-module.exports = { postLogin, getLogin }
+module.exports = { postLogin}
