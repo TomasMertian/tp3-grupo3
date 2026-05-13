@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-    "nombre": "Limpieza Integral",
     "detalle_largo": "Limpieza completa de notebook o PC, incluyendo ventiladores y componentes internos.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
@@ -9,7 +8,6 @@
   },
   {
     "id": 2,
-    "nombre": "Cambio de Pasta Térmica",
     "detalle_largo": "Reemplazo de pasta térmica para mejorar temperatura y rendimiento.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
@@ -17,7 +15,6 @@
   },
   {
     "id": 3,
-    "nombre": "Optimización de Sistema Operativo",
     "detalle_largo": "Mejora del rendimiento del sistema y limpieza de procesos innecesarios.",
     "tiempo_entrega": "48 horas",
     "disponible": true,
@@ -25,7 +22,6 @@
   },
   {
     "id": 4,
-    "nombre": "Instalación de Suite Office",
     "detalle_largo": "Instalación y configuración de programas de oficina.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
@@ -33,7 +29,6 @@
   },
   {
     "id": 5,
-    "nombre": "Ampliación de Memoria RAM",
     "detalle_largo": "Instalación de módulos RAM compatibles con el equipo.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
@@ -41,7 +36,6 @@
   },
   {
     "id": 6,
-    "nombre": "Migración de Disco SSD",
     "detalle_largo": "Clonado del sistema y cambio a disco SSD.",
     "tiempo_entrega": "48 horas",
     "disponible": true,
@@ -49,7 +43,6 @@
   },
   {
     "id": 7,
-    "nombre": "Armado de PC",
     "detalle_largo": "Ensamblado completo de PC a medida.",
     "tiempo_entrega": "72 horas",
     "disponible": true,
@@ -57,7 +50,6 @@
   },
   {
     "id": 8,
-    "nombre": "Recuperación de Datos",
     "detalle_largo": "Intento de recuperación de archivos perdidos o dañados.",
     "tiempo_entrega": "72 horas",
     "disponible": true,
@@ -65,7 +57,6 @@
   },
   {
     "id": 9,
-    "nombre": "Reparación de Bisagras",
     "detalle_largo": "Reparación de bisagras de notebook y carcasa.",
     "tiempo_entrega": "48 horas",
     "disponible": true,
@@ -73,7 +64,6 @@
   },
   {
     "id": 10,
-    "nombre": "Eliminación de Malware",
     "detalle_largo": "Limpieza de virus, malware y adware.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
@@ -81,7 +71,6 @@
   },
   {
     "id": 11,
-    "nombre": "Actualización de BIOS/Drivers",
     "detalle_largo": "Actualización segura de BIOS y controladores.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
@@ -89,7 +78,6 @@
   },
   {
     "id": 12,
-    "nombre": "Reemplazo de Teclado o Pantalla",
     "detalle_largo": "Cambio de periféricos dañados en notebooks.",
     "tiempo_entrega": "48 horas",
     "disponible": true,
@@ -97,7 +85,6 @@
   },
   {
     "id": 13,
-    "nombre": "Instalación de Redes Mesh",
     "detalle_largo": "Configuración e instalación de red mesh en hogares u oficinas.",
     "tiempo_entrega": "48 horas",
     "disponible": true,
