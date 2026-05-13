@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 1,
     "nombre": "Alan",
     "puesto": "Encargado de mostrador",
@@ -7,8 +7,8 @@
     "telefono": "+54 291 543 3456",
     "email": "alanmartinez@gmail.com",
     "imagen": "../assets/personal4.jpg"
-    },
-    {
+  },
+  {
     "id": 2,
     "nombre": "Nahuel",
     "puesto": "Tecnico reparador",
@@ -16,8 +16,8 @@
     "telefono": "+54 291 945 9123",
     "email": "nahuelperez7@yahoo.com",
     "imagen": "../assets/personal.png"
-    },
-    {
+  },
+  {
     "id": 3,
     "nombre": "Lucia",
     "puesto": "Encargada de recursos humanos",
@@ -25,8 +25,8 @@
     "telefono": "+54 291 756 8234",
     "email": "luchigonzales@hotmail.com",
     "imagen": "../assets/personal2.png"
-    },
-    {
+  },
+  {
     "id": 4,
     "nombre": "Marcelo",
     "puesto": "Dueño del local",
@@ -34,5 +34,5 @@
     "telefono": "+54 291 576 6096",
     "email": "marcelopaez@gmail.com",
     "imagen": "../assets/personal3.png"
-    }
+  }
 ]
