@@ -1,9 +1,62 @@
 [
   {
-    "id": "1778632009235",
-    "nombre": "Test",
-    "apellido": "User",
-    "email": "test@test.com",
-    "password": "123456"
+    "id": 1,
+    "nombre": "Federica Vignales",
+    "mail": "federica.vignales@gmail.com",
+    "fechaRegistro": "2026-03-12",
+    "foto": "https://placehold.co/200x200",
+    "ultimosPedidos": [
+      "Armado de PC",
+      "Migración de Disco SSD",
+      "Cambio de Pasta Térmica"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Lucas Martínez",
+    "mail": "lucasmartinez@hotmail.com",
+    "fechaRegistro": "2026-01-28",
+    "foto": "https://placehold.co/200x200",
+    "ultimosPedidos": [
+      "Optimización de Sistema Operativo",
+      "Eliminación de Malware y Adware",
+      "Actualización de BIOS/Drivers"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Camila Rodríguez",
+    "mail": "camirodriguez@gmail.com",
+    "fechaRegistro": "2025-11-15",
+    "foto": "https://placehold.co/200x200",
+    "ultimosPedidos": [
+      "Instalación de Redes Mesh",
+      "Limpieza Integral",
+      "Ampliación de Memoria RAM"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Tomás Herrera",
+    "mail": "tomas.herrera@yahoo.com",
+    "fechaRegistro": "2026-02-05",
+    "foto": "https://placehold.co/200x200",
+    "ultimosPedidos": [
+      "Recuperación de Datos",
+      "Reemplazo de Teclado o Pantalla",
+      "Cambio de Pasta Térmica"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Valentina Suárez",
+    "mail": "valesuarez@gmail.com",
+    "fechaRegistro": "2026-04-02",
+    "foto": "https://placehold.co/200x200",
+    "ultimosPedidos": [
+      "Instalación de Suite Office",
+      "Limpieza Integral",
+      "Optimización de Sistema Operativo"
+    ]
   }
 ]
