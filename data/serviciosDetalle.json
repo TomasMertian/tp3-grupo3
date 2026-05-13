@@ -1,18 +1,93 @@
 [
   {
     "id": 1,
-    "nombre": "Arreglar pc",
-    "detalle_largo": "Arreglo y diagnostico de computadores de escritorio o notebooks",
-    "tiempo_entrega": "48 horas",
+    "detalle_largo": "Limpieza completa de notebook o PC, incluyendo ventiladores y componentes internos.",
+    "tiempo_entrega": "24 horas",
     "disponible": true,
-    "categoria": "Reparacion"
+    "categoria": "Mantenimiento"
   },
   {
     "id": 2,
-    "nombre": "Instalar componentes",
-    "detalle_largo": "Instalamos componentes por vos",
+    "detalle_largo": "Reemplazo de pasta térmica para mejorar temperatura y rendimiento.",
     "tiempo_entrega": "24 horas",
     "disponible": true,
-    "categoria": "Instalacion"
+    "categoria": "Mantenimiento"
+  },
+  {
+    "id": 3,
+    "detalle_largo": "Mejora del rendimiento del sistema y limpieza de procesos innecesarios.",
+    "tiempo_entrega": "48 horas",
+    "disponible": true,
+    "categoria": "Software"
+  },
+  {
+    "id": 4,
+    "detalle_largo": "Instalación y configuración de programas de oficina.",
+    "tiempo_entrega": "24 horas",
+    "disponible": true,
+    "categoria": "Software"
+  },
+  {
+    "id": 5,
+    "detalle_largo": "Instalación de módulos RAM compatibles con el equipo.",
+    "tiempo_entrega": "24 horas",
+    "disponible": true,
+    "categoria": "Hardware"
+  },
+  {
+    "id": 6,
+    "detalle_largo": "Clonado del sistema y cambio a disco SSD.",
+    "tiempo_entrega": "48 horas",
+    "disponible": true,
+    "categoria": "Hardware"
+  },
+  {
+    "id": 7,
+    "detalle_largo": "Ensamblado completo de PC a medida.",
+    "tiempo_entrega": "72 horas",
+    "disponible": true,
+    "categoria": "Hardware"
+  },
+  {
+    "id": 8,
+    "detalle_largo": "Intento de recuperación de archivos perdidos o dañados.",
+    "tiempo_entrega": "72 horas",
+    "disponible": true,
+    "categoria": "Soporte"
+  },
+  {
+    "id": 9,
+    "detalle_largo": "Reparación de bisagras de notebook y carcasa.",
+    "tiempo_entrega": "48 horas",
+    "disponible": true,
+    "categoria": "Reparación"
+  },
+  {
+    "id": 10,
+    "detalle_largo": "Limpieza de virus, malware y adware.",
+    "tiempo_entrega": "24 horas",
+    "disponible": true,
+    "categoria": "Software"
+  },
+  {
+    "id": 11,
+    "detalle_largo": "Actualización segura de BIOS y controladores.",
+    "tiempo_entrega": "24 horas",
+    "disponible": true,
+    "categoria": "Software"
+  },
+  {
+    "id": 12,
+    "detalle_largo": "Cambio de periféricos dañados en notebooks.",
+    "tiempo_entrega": "48 horas",
+    "disponible": true,
+    "categoria": "Reparación"
+  },
+  {
+    "id": 13,
+    "detalle_largo": "Configuración e instalación de red mesh en hogares u oficinas.",
+    "tiempo_entrega": "48 horas",
+    "disponible": true,
+    "categoria": "Redes"
   }
 ]

@@ -17,7 +17,7 @@ const getServicios = async (req, res) => {
 const getServicioById = async (req, res) => {
   try {
     const id = parseInt(req.params.id)
-    const data = await fs.readFile('./data/servicios.json', 'utf8')
+    const data = await fs.readFile('./data/serviciosDetalle.json', 'utf8')
     const servicios = JSON.parse(data)
 
     const servicio = servicios.find((s) => s.id === id)

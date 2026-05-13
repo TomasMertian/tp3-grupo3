@@ -1,36 +1,37 @@
-const express = require('express')
-const cors = require('cors')
-require('dotenv').config()
+const express = require("express");
+const cors = require("cors");
+require("dotenv").config();
 
 class Server {
   constructor() {
-    this.app = express()
-    this.port = process.env.PORT || 3000
-    this.middleware()
-    this.rutas()
+    this.app = express();
+    this.port = process.env.PORT || 3000;
+    this.middleware();
+    this.rutas();
   }
 
   middleware() {
-    this.app.use(cors())
-    this.app.use(express.json())
+    this.app.use(cors());
+    this.app.use(express.json());
   }
 
   rutas() {
-    this.app.use('/servicios', require('../routes/serviciosRoutes'))
-    this.app.use('/equipo', require('../routes/equipoRoutes'))
-    this.app.use('/register', require('../routes/registerRoutes'))
+    this.app.use("/servicios", require("../routes/serviciosRoutes"));
+    this.app.use("/equipo", require("../routes/equipoRoutes"));
+    this.app.use("/register", require("../routes/registerRoutes"));
+    this.app.use("/perfil", require("../routes/perfilRoutes"));
 
     this.app.use((err, req, res, next) => {
-      console.error(err.stack)
-      return res.status(500).json({ msg: 'Internal Server Error' })
-    })
+      console.error(err.stack);
+      return res.status(500).json({ msg: "Internal Server Error" });
+    });
   }
 
   listen() {
     this.app.listen(this.port, () => {
-      console.log(`La API esta escuchando el el puerto: ${this.port}`)
-    })
+      console.log(`La API esta escuchando el el puerto: ${this.port}`);
+    });
   }
 }
 
-module.exports = Server
+module.exports = Server;
