@@ -2,12 +2,12 @@ const fs = require('fs').promises
 
 const postLogin = async (req, res) => {
     try{
-        data = await fs.readFile('.data/usuarios.json', 'utf-8')
-        data = JSON.parse(data)
+        const data = await fs.readFile('./data/usuarios.json', 'utf-8')
+        const usuarios = JSON.parse(data)
 
         const { email, password } = req.body
 
-        const user = data.find(user => user.email === email && user.password === password)
+        const user = usuarios.find(user => user.email === email && user.password === password)
         if (user) {
             res.status(200).json({ message : 'Entrando...' })
         }
