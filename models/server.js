@@ -20,7 +20,8 @@ class Server {
     this.app.use("/equipo", require("../routes/equipoRoutes"));
     this.app.use("/register", require("../routes/registerRoutes"));
     this.app.use("/perfil", require("../routes/perfilRoutes"));
-
+    this.app.use("/login", require("../routes/logInRoutes"));
+    
     this.app.use((err, req, res, next) => {
       console.error(err.stack);
       return res.status(500).json({ msg: "Internal Server Error" });

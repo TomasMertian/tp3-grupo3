@@ -1,7 +1,7 @@
 const fs = require('fs').promises
 
 const obtenerUsuarios = async () => {
-  const data = await fs.readFile('./data/usuarios.json', 'utf8')
+  const data = await fs.readFile('./data/usuariosRegistrados.json', 'utf8')
   return JSON.parse(data)
 }
 
@@ -58,7 +58,7 @@ const registrarUsuario = async (req, res) => {
     usuarios.push(usuarioNuevo)
 
     await fs.writeFile(
-      './data/usuarios.json',
+      './data/usuariosRegistrados.json',
       JSON.stringify(usuarios, null, 2)
     )
 

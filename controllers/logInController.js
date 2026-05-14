@@ -2,7 +2,7 @@ const fs = require('fs').promises
 
 const postLogin = async (req, res) => {
     try{
-        const data = await fs.readFile('./data/usuarios.json', 'utf-8')
+        const data = await fs.readFile('./data/usuariosRegistrados.json', 'utf-8')
         const usuarios = JSON.parse(data)
 
         const { email, password } = req.body
