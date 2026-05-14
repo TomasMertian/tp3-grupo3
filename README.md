@@ -76,15 +76,15 @@ Data/servicios.json: Este archivo contiene la lista principal de los servicios. 
 
 Ejemplo:
 
-````json
+```json
     {
       "id": 1,
       "precio": 20000,
       "desc": "Limpieza integral"
     },
-{...//resto de los servicios
-]
+...  //resto de los servicios
 ```
+
 serviciosRoutes.js:
 Este archivo define los caminos (rutas) por donde viajan las peticiones.
 router.get('/', ...): Define la ruta principal. Su función es recibir el pedido de "quiero ver todos los servicios" y pasarselo al controllador.
@@ -129,13 +129,9 @@ Dato clave: Al usar ${servicio.desc} dentro de las comillas inclinadas, es como 
 
 Node.js, Express, npm, consumo de APIs y deploys
 
-
-
 ## Sección: Gestión de Equipo
 
 Por: Renata Turani
-
-
 
 Backend: estructura y lógica
 
@@ -143,25 +139,17 @@ data/equipo.json
 
 Creé este archivo para centralizar la información de los integrantes. Funciona como nuestra base de datos, almacenando nombres, puestos, descripciones, contactos y rutas de imágenes.
 
-
-
 controllers/equipoController.js
 
 Desarrollé la lógica para leer los datos. Use fs/promises para realizar una lectura de archivos asíncrona. Implementé try/catch para que si ocurre algún problema al cargar los datos, el servidor simplemente mande un aviso de error.
-
-
 
 routes/equipo.routes.js
 
 Definí el endpoint principal (GET/equipo). Vinculé esta ruta con el controlador anterior para que cuando reciba la petición, se envíen los datos en formato JSON.
 
-
-
 models/server.js
 
 Integré las rutas de equipo en la clase global del servidor y configuré los permisos necesarios (CORS) para que nuestra página tenga “permiso” de pedirle la información al servidor y así mostrarla sin errores.
-
-
 
 Frontend: consumo de la API
 
@@ -169,13 +157,9 @@ pages/equipo.html
 
 Modifiqué la estructura original. Eliminé todos los elementos div y dejé un contenedor vacío con el id contenedor-equipo. También agregué el script de JS al final del archivo.
 
-
-
 js/equipo.js
 
 Creé este script desde cero. Su función es realizar un fetch a la URL de la API. Podemos decir que la funcion es “asíncrona” y recorre el arreglo de integrantes usando un forEach, generando el HTML de las tarjetas dinámicamente y respetando los estilos CSS que ya teníamos.
-
-
 
 Ejemplo de estructura del archivo JSON
 
@@ -194,7 +178,6 @@ Utilicé un arreglo de objetos para representar a cada integrante. Cada objeto s
 ]
 ```
 
-
 ## Seccion GET perfil por id
 
 Federica Vignales
@@ -206,8 +189,6 @@ data/usuarios.json
 En este archivo guardé la información de los usuarios en formato JSON.
 Cada usuario tiene un id y distintos datos que luego se muestran en el perfil.
 
-
-
 routes/perfilRoutes.js
 
 Creé la ruta para obtener un perfil según su id.
@@ -215,8 +196,6 @@ La ruta recibe el parámetro desde la URL y llama al controlador correspondiente
 
 Ejemplo:
 GET /perfil/1
-
-
 
 controllers/perfilController.js
 
@@ -232,8 +211,6 @@ Devuelve la información en formato JSON.
 
 Maneja errores en caso de que el usuario no exista.
 
-
-
 Frontend
 
 pages/perfil.html
@@ -241,13 +218,9 @@ pages/perfil.html
 Creé la estructura HTML de la página de perfil.
 Incluí un contenedor donde se muestran dinámicamente los datos del usuario y vinculé el archivo perfil.js.
 
-
-
 css/style.css
 
 Realicé los estilos de la página de perfil para organizar la información y mantener el diseño del proyecto.
-
-
 
 js/perfil.js
 
@@ -351,8 +324,7 @@ Frontend: consumo de la API
 
 `catch (error)`: Captura errores de red o de conexión y muestra un aviso al usuario en lugar de dejar la pantalla en blanco.
 
-
- (servicios.js,serviciosDetalle.js,serviciosController.js)
+(servicios.js,serviciosDetalle.js,serviciosController.js)
 
 ## Surop Maitena
 
@@ -361,7 +333,6 @@ En esta parte del trabajo se implementó la funcionalidad relacionada con la vis
 Primero se trabajó en el backend, agregando una nueva ruta para poder obtener la información individual de cada servicio mediante su identificador. Para esto se implementó el endpoint GET /servicios/:id, cuya función es recibir el id del servicio seleccionado y devolver la información específica de ese servicio.
 
 Dentro del archivo serviciosController.js se incorporó la función getServicioById, encargada de leer el archivo serviciosDetalle.json, procesar la información y buscar el servicio correspondiente según el id recibido desde la URL. Una vez encontrado, devuelve los datos en formato JSON para que puedan ser consumidos desde el frontend. También se incluyó el manejo de errores, devolviendo un mensaje en caso de que el servicio no exista o si ocurre un problema al leer los datos.
-
 
 Además, se creó el archivo serviciosDetalle.json, donde se almacenó información complementaria para cada servicio. En este archivo se incorporaron datos más específicos, como una descripción ampliada, el tiempo estimado de entrega, la categoría a la que pertenece cada servicio y su disponibilidad. Cada registro mantiene el mismo id que el archivo principal de servicios, para poder relacionar correctamente la información.
 
@@ -388,7 +359,6 @@ Ejemplo:
 En el frontend se realizó la integración con la API. Inicialmente se consumió el endpoint general de servicios para mostrar todas las tarjetas disponibles en pantalla, incluyendo el nombre, precio e imagen correspondiente. Posteriormente, se agregó un botón de interacción en cada tarjeta con la opción "Ver detalle".
 
 Al presionar dicho botón, se ejecuta una nueva solicitud al endpoint individual (GET /servicios/:id), utilizando el id del servicio seleccionado. Con la respuesta obtenida, la aplicación muestra información adicional debajo de la tarjeta correspondiente, sin necesidad de recargar la página ni redirigir al usuario.
-
 
 ## Sección: Login
 
@@ -461,4 +431,7 @@ Frontend: consumo de la API
 `respuesta.ok === true`: Si el servidor respondió con éxito, muestra la confirmación y limpia el formulario con `formulario.reset()`. Si falló, muestra un mensaje de error.
 
 `catch (error)`: Captura errores de red o de conexión y muestra un aviso al usuario en lugar de dejar la pantalla en blanco.
-````
+
+```
+
+```
